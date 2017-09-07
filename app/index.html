@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <title>test Checkout</title>
+  <meta charset="utf-8"/>
+  <meta name="author"/>
+  <meta content="test site" name="description"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <!--meta (name="viewport" content="width=device-width, initial-scale=1, user-scalable=no")-->
+  <meta name="HandheldFriendly" content="true"/>
+  <meta name="format-detection" content="telephone=no"/>
+  <meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+  <!-- build:css css/vendor.css-->
+  <!-- endbuild-->
+  <!-- build:css css/main.css-->
+  <link rel="stylesheet" href="css/main.css"/>
+  <!-- endbuild-->
+  <body class="page">
+    <div class="page__container">
+      <div class="section">
+        <div class="form-content">
+          <h1 class="form-content__head">Оформление заказа    
+          </h1>
+          <div class="form-content__navigation">  
+            <div class="item"> 
+              <p class="item__title">Я новый покупатель
+              </p>
+            </div>
+            <div class="item"> 
+              <p class="item__title">Я зарегистрированный покупатель
+              </p>
+            </div>
+            <div class="form-content__form-data">
+              <div class="section-form">
+                <form class="section-form__form">
+                  <h3 class="section-form__field-title">
+                     Получатель заказа
+                  </h3>
+                  <field class="form-field">
+                    <label class="form-field__input-title">Имя и фамилия
+                    </label><input class="form-field__input" type="text"/>
+                  </field>
+                  <field class="form-field">
+                    <label class="form-field__input-title">Телефон
+                    </label><input class="form-field__input" type="tel"/>
+                  </field>
+                  <field class="form-field">
+                    <label class="form-field__input-title">Город
+                    </label><input class="form-field__input" type="text" value="Киев"/>
+                  </field>
+                  <field class="form-field">
+                    <label class="form-field__input-title">Эл. почта
+                    </label><input class="form-field__input" type="email" value="anderssona258@gmail.com"/>
+                  </field>
+                  <div class="comment">
+                    <p class="comment__comment-menu">Добавить комментарий к заказу
+                    </p>
+                    <field class="form-field not-active addcomment">
+                      <label class="form-field__input-title">Ваш коментарий
+                      </label><input class="form-field__input" type="email" value=""/>
+                    </field>
+                  </div>
+                  <div class="form-foot">
+                    <field class="under">
+                      <label class="under__foot-label">Доставка
+                      </label>
+                      <div class="select">
+                        <select class="select__select">
+                          <option class="select__option">"Новая почта" &mdash; 25 грн.
+                          </option>
+                          <option class="select__option">"Новая почта" &mdash; 25 грн.
+                          </option>
+                          <option class="select__option">"Новая почта" &mdash; 25 грн.
+                          </option>
+                        </select>
+                      </div>
+                      <label class="under__foot-label label2">Адрес склада
+                      </label>
+                      <div class="select">
+                        <select class="select__select">
+                          <option class="select__option">Львов, Отделение №8 (до 30 кг): ул. Гетьмана И. Мазепы, 37
+                          </option>
+                          <option class="select__option">Львов, Отделение №8 (до 30 кг): ул. Гетьмана И. Мазепы, 37
+                          </option>
+                          <option class="select__option">Львов, Отделение №8 (до 30 кг): ул. Гетьмана И. Мазепы, 37
+                          </option>
+                        </select>
+                      </div>
+                    </field>
+                    <field class="under botom-form">
+                      <label class="under__foot-label">Оплата
+                      </label>
+                      <div class="select">
+                        <select class="select__select">
+                          <option class="select__option">наложеный платёж
+                          </option>
+                          <option class="select__option">наложеный платёж
+                          </option>
+                          <option class="select__option">наложеный платёж
+                          </option>
+                        </select>
+                      </div>
+                    </field>
+                    <div class="button"> 
+                      <button class="button__btn">Оформить заказ
+                      </button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+          <div class="right-side">
+            <div class="side-price">
+              <div class="side-price__label">
+                <h3 class="side-price__title">Ваш заказ
+                </h3>
+              </div>
+              <div class="goods-item"><img class="goods-item__image" src="img/camera.jpg" alt="" role="presentation"/>
+                <div class="goods-item__price"><a class="goods-item__href" href="#">Цифровий фотоапарат Nikon D5100 kit (18-55 VR)</a>
+                  <p class="goods-item__check">6 568 грн. × 1 шт.<span class="goods-item__check-span">6 568 грн.</span>
+                  </p>
+                </div>
+              </div>
+              <div class="goods-item"><img class="goods-item__image" src="img/player.jpg" alt="" role="presentation"/>
+                <div class="goods-item__price"><a class="goods-item__href" href="#">MP3-плеер Apple iPod Touch 5Gen 32Gb blue</a>
+                  <p class="goods-item__check">3 689 грн. × 1 шт.<span class="goods-item__check-span">3 689 грн.</span>
+                  </p>
+                </div>
+              </div>
+              <div class="side-price__main-price">
+                <div class="side-price__price-item">9 769,15 грн.    
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <script src="libs/jquery/dist/jquery.min.js"></script>
+      <script src="js/main.js"></script>
+    </div>
+  </body>
+</html>

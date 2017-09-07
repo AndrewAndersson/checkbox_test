@@ -1,0 +1,35 @@
+include _assets/bemto/bemto
+- set_bemto_settings({ modifier: "--" })
+
+include head/head
+include content/content
+include right-side/right-side
+include main-form/main-form
+include form-foot/form-foot
+
+
+
+doctype html
+html(lang="ru")
+    block head
+        +head({
+            "title": "test Checkout",
+            "autor": "Chaban Andriy",
+            "description": "test site"
+        })
+    
+    +b.BODY.page
+        +e.DIV.container
+            block content
+                div content
+
+
+            block vendors
+                script(src="libs/jquery/dist/jquery.min.js")
+
+            block scripts
+                script(src="js/main.js")
+                
+            
+                
+                            

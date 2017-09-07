@@ -1,0 +1,9 @@
+@media all and (max-width: 1100px) {
+  .form-content__right-side {
+    display: none !important; } }
+
+@media screen and (max-width: 1220px) {
+  .form-content__navigation {
+    max-width: 760px; }
+  .form-content__right-side {
+    margin-right: 50px; } }

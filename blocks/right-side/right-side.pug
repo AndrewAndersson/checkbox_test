@@ -1,0 +1,23 @@
+mixin right-side()
+
+    +b.DIV.side-price
+        +e.DIV.label
+            +e.H3.title Ваш заказ
+        +b.DIV.goods-item
+            +e.IMG.image(src="img/camera.jpg")
+            +e.DIV.price
+                +e.A.href(href="#")
+                    |Цифровий фотоапарат Nikon D5100 kit (18-55 VR)
+                +e.P.check 6 568 грн. × 1 шт.
+                    +e.SPAN.check-span 6 568 грн.
+        +b.DIV.goods-item
+            +e.IMG.image(src="img/player.jpg")
+            +e.DIV.price
+                +e.A.href(href="#")
+                    |MP3-плеер Apple iPod Touch 5Gen 32Gb blue
+                +e.P.check 3 689 грн. × 1 шт.
+                    +e.SPAN.check-span 3 689 грн.
+        +e.DIV.main-price
+            +e.DIV.price-item
+                |9 769,15 грн.    
+    

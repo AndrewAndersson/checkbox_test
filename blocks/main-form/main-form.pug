@@ -1,0 +1,30 @@
+mixin main-form()
+    
+        +b.DIV.section-form
+            +e.FORM.form
+                    +e.H3.field-title 
+                        |Получатель заказа
+                    +b.FIELD.form-field
+                        +e.LABEL.input-title
+                            |Имя и фамилия
+                        +e.INPUT.input(type="text")
+                    +b.FIELD.form-field
+                        +e.LABEL.input-title
+                            |Телефон
+                        +e.INPUT.input(type="tel")
+                    +b.FIELD.form-field
+                        +e.LABEL.input-title
+                            |Город
+                        +e.INPUT.input(type="text" value="Киев")
+                    +b.FIELD.form-field
+                        +e.LABEL.input-title
+                            |Эл. почта
+                        +e.INPUT.input(type="email" value="anderssona258@gmail.com")
+                    +b.DIV.comment
+                        +e.P.comment-menu
+                            |Добавить комментарий к заказу
+                        +b.FIELD.form-field(class="not-active addcomment")
+                            +e.LABEL.input-title
+                                |Ваш коментарий
+                            +e.INPUT.input(type="email" value="")
+                    +form-foot

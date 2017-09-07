@@ -1,0 +1,37 @@
+mixin form-foot()
+    +b.DIV.form-foot
+        +b.FIELD.under
+            +e.LABEL.foot-label
+                |Доставка
+            +b.DIV.select
+                +e.SELECT.select
+                    +e.OPTION.option
+                        | "Новая почта" &mdash; 25 грн.
+                    +e.OPTION.option
+                        | "Новая почта" &mdash; 25 грн.
+                    +e.OPTION.option
+                        | "Новая почта" &mdash; 25 грн.
+            +e.LABEL.foot-label(class="label2")
+                |Адрес склада
+            +b.DIV.select
+                +e.SELECT.select
+                    +e.OPTION.option
+                        | Львов, Отделение №8 (до 30 кг): ул. Гетьмана И. Мазепы, 37
+                    +e.OPTION.option
+                        | Львов, Отделение №8 (до 30 кг): ул. Гетьмана И. Мазепы, 37
+                    +e.OPTION.option
+                        |Львов, Отделение №8 (до 30 кг): ул. Гетьмана И. Мазепы, 37
+        +b.FIELD.under(class="botom-form")
+            +e.LABEL.foot-label
+                |Оплата
+            +b.DIV.select
+                +e.SELECT.select
+                    +e.OPTION.option
+                        |наложеный платёж
+                    +e.OPTION.option
+                        |наложеный платёж
+                    +e.OPTION.option
+                        |наложеный платёж
+        +b.DIV.button 
+            +e.BUTTON.btn
+                |Оформить заказ
